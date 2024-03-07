@@ -12,4 +12,4 @@ A perfect project for Beginners who are starting to build confidence with Framew
 
 ### This is a Preview of the finished PC version
 
-![Getting Started](./src/assets/Gym-practice.PNG)
+![Getting Started](./src/assets/images/Gym-practice.PNG)
