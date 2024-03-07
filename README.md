@@ -1,4 +1,4 @@
-# Practice-Tremor-Dashboard-React-App
+# Practice-React-Gym-Practice-App
 
 React-Gym-Api-Practice
 
