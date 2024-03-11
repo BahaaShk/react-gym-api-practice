@@ -13,7 +13,7 @@ const LeftArrow = () => {
 
   return (
     <Typography onClick={() => scrollPrev()}
-    style={{marginRight:"40px"}}
+    // style={{marginRight:"40px"}}
     className="right-arrow">
       <img src={LeftArrowIcon} alt="left-arrow" />
     </Typography>
@@ -25,7 +25,7 @@ const RightArrow = () => {
 
   return (
     <Typography onClick={() => scrollNext()} 
-    style={{marginRight:"40px"}}
+    // style={{marginRight:"40px"}}
     className="left-arrow">
       <img src={RightArrowIcon} alt="right-arrow" />
     </Typography>

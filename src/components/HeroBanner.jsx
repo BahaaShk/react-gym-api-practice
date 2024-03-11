@@ -1,6 +1,6 @@
 import { Box, Button, Typography } from "@mui/material";
 import React from "react";
-import HeroBannerImage from '../assets/images/banner.png' 
+import HeroBannerImage from '../assets/images/gym-landing.jpg' 
 const HeroBanner = () => {
   return (
     <Box
@@ -12,13 +12,14 @@ const HeroBanner = () => {
       p={"20px"}
     >
       <Typography color={"#FF2625"} fontSize={"24px"} fontWeight={"600"}>
-        Fitness Club
+      Transform Your Life
       </Typography>
-      <Typography fontWeight={700} mb={2} mt={4} sx={{fontSize:{lg:"44px", xs:"40px"}}}>
-        Sweat, Smile <br /> and repeat
+      <Typography fontWeight={700} mb={2} mt={4} textTransform={"capitalize"} sx={{fontSize:{lg:"28px", xs:"24px"}}}>
+        {/* Sweat, Smile <br /> and repeat */}
+        Redefine yourself through our <br /> transformative fitness experience.
       </Typography>
       <Typography fontSize={"22px"} mb={3} lineHeight={"35px"}>
-        Check out the most effective exercises
+      Discover Exercise Plans That Really Work
       </Typography>
       <a href={"/#exercises"}>
       <Button variant="contained" color="error" sx={{backgroundColor:"#ff2625", padding:"10px"}}>

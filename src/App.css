@@ -17,13 +17,10 @@ body {
 .right-arrow,
 .left-arrow {
   cursor: pointer;
-  /* background: transparent; */
   outline: none;
   border: none;
   display: flex;
   justify-content: center;
-  /* width: 0%; */
-  /* margin-left: 100px; */
   align-items: center;
   color: #ff2625;
   font-size: 25px;
@@ -32,7 +29,7 @@ body {
   border-radius: 40px;
   background-color: rgba(250, 87, 87, 0.1);
   position: absolute;
-  bottom: -45px;
+  bottom: -20px;
   right: 80px;
   /* gap: 20px; */
   transform: scale(1, 1);
@@ -66,6 +63,7 @@ body {
   width: 700px;
   height: 800px;
   margin-top: -265px;
+  border-radius: 30px;
 }
 
 .exercise-card {
@@ -130,11 +128,6 @@ body {
     width: 500px;
   }
 
-  .right-arrow,
-  .left-arrow {
-    /* position: static !important; */
-    /* right: 70px; */
-  }
 
   .hero-banner-img {
     display: none;
@@ -147,6 +140,15 @@ body {
   .exercise-video {
     width: 320px;
     height: 300px;
+  }
+}
+
+@media screen and (max-width:769px) {
+  .right-arrow,
+  .left-arrow {
+    /* position: static !important; */
+    /* padding: 0; */
+    /* right: 70px; */
   }
 }
 
